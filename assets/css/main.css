@@ -4505,7 +4505,7 @@ body.is-menu-visible #menu .inner {
 }
 .skills ul{
 	display: flex;
-	gap: 2em;
+	gap: 1em;
 	list-style: none;
 }
 .skills li{
@@ -4513,6 +4513,16 @@ body.is-menu-visible #menu .inner {
 	font-size:medium;
 	font-weight: 600;
 }
+.info{
+	display: flex;
+}
+@media screen and (max-width: 980px) {
+	.info{
+		display: block;
+	}
+
+}
+
 
 #one .inner {
     margin: 2em;
@@ -4522,6 +4532,7 @@ body.is-menu-visible #menu .inner {
 	grid-template-columns: repeat(2, 1fr); /* Start met 2 kolommen */
 	gap: 10px; /* Ruimte tussen de afbeeldingen */
 	margin: 1.5em;
+	align-items: center;
   }
   
   .image3 {
@@ -4554,13 +4565,41 @@ body.is-menu-visible #menu .inner {
   
   #one video {
 	width: 100%;
-	height: 100%; /* Volledige hoogte van de container */
+	height: 100%;
 	max-width: 100%;
 	top: 0;
 	left: 0;
 	object-fit: contain;
   }
-  .detail{
+  .detail,.details{
 	margin: 2em;
   }
+  .tekstverbetering{
+	text-align: center;
+  }
+  .textverbetering2{
+	font-family:Arial, Helvetica, sans-serif ;
+  }
+  .onderwijs{
+	margin: 3em;
+  }
+  .onderwijs, ul{
+	list-style-type: none;
+  }
+  .onderwijstitel{
+	margin-left: 1em;
+  }
+  .navfooter{
+	display: flex;
+  }
+  .navfooter li{
+	color: #8d82c4;
+  }
+  .icons{
+	margin-left: 1.5em;
+  }
+  #footer{
+	background-color: #333856;
+  }
+
   
